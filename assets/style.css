@@ -432,6 +432,7 @@
         }
         .project-title h1 {
             font-size: 40px;
+            margin-top: 150px;
         }
         .project-container {
             display: grid;
@@ -453,7 +454,7 @@
             font-size: 18px;
             background: #fff;
             width: 800%;
-        
+            padding: 2rem;
             /* Center slide text vertically */
             display: flex;
             align-items: center;
