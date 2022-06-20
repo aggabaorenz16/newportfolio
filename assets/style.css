@@ -142,6 +142,7 @@
 }
 .work-left .work-paragraph p {
     font-size: 20px;
+    margin: 1rem;
     display: grid;
     place-items: center;
 }
@@ -286,8 +287,8 @@
     display: grid;
 }
 .swiper {
-    /* width: 100%;
-    height: 100%; */
+    width: 100%;
+    height: 100%;
   }
 
   .swiper-slide {
@@ -300,21 +301,6 @@
     align-items: center;
     place-content: center;
   }
-.card1 img {
-    width: 100%;
-}
-.card2 img {
-    width: 100%;
-}
-.card3 img {
-    width: 100%;
-}
-.card4 img {
-    width: 100%;
-}
-.card5 img {
-    width: 100%;
-}
 .mySwiper {
     height: 80vh;
     width: 100%;
@@ -410,159 +396,181 @@
     font-size: 30px;
 }
 @media screen and (max-width: 320px) {
-    .right-menu {
-        display: none;
-    }
-    .main-container {
-        display: grid;
-        grid-template-columns: repeat(1, auto);
-    }
-    .main-container .left-side h1 {
-        font-size: 50px;
-        padding: 1rem;
-    }
-    .main-container .left-side .whoiam p {
-        font-size: 18px;
-    }
-    .main-container .left-side .work p {
-        font-size: 18px;
-    }
-    .main-container .right-side img {
-        width: auto;
-        height: 35vh;
-    }
-    .work-container {
-        display: grid;
-        grid-template-columns: repeat(1, auto);
-        height: 100vh;
-    }
-    .work-right .image-skill img {
-        height: 250px;
-    }
-    .work-left .title-work h1 {
-        font-size: 15px;
-    }
-    .work-left .work-description p {
-        font-size: 20px;
-    }
-    .project-title h1 {
-        font-size: 40px;
-    }
-    .project-container {
-        display: grid;
-        grid-template-columns: repeat(1, auto);
-    }
-    .testimonial-title { 
-        font-size: 20px;
-        margin-top: 80px;
-    }
-    /* ad */
-
-    .swiper {
-        width: 60%;
-        height: 50%;
-      }
+    @media screen and (max-width: 320px) {
+        .right-menu {
+            display: none;
+        }
+        .main-container {
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+        }
+        .main-container .left-side h1 {
+            font-size: 50px;
+            padding: 1rem;
+        }
+        .main-container .left-side .whoiam p {
+            font-size: 18px;
+        }
+        .main-container .left-side .work p {
+            font-size: 18px;
+        }
+        .main-container .right-side img {
+            width: auto;
+            height: 35vh;
+        }
+        .work-container {
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+            height: 100vh;
+        }
+        .work-right .image-skill img {
+            height: 250px;
+        }
+        .work-left .title-work h1 {
+            font-size: 15px;
+        }
+        .work-left .work-description p {
+            font-size: 20px;
+        }
+        .project-title h1 {
+            font-size: 40px;
+        }
+        .project-container {
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+        }
+        .testimonial-title { 
+            font-size: 20px;
+            margin-top: 80px;
+        }
+        /* ad */
     
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        width: 800%;
-    
-        /* Center slide text vertically */
-        display: flex;
-        align-items: center;
-        place-content: center;
-      }
-    .mySwiper {
-        height: 100%;
-        width: 100%;
-    }
-    .card5 .work {
-        font-size: 18px;
-        padding: 1rem;
-    }
-    .card5 .name {
-        font-size: 18px;
-        padding: 1rem;
-    }
-    .card5 .description {
-        font-size: 15px;
-        color: #222f3e;
-    }
-    
-    .card1 .work {
-        font-size: 25px;
-        padding: 1rem;
-    }
-    .card1 .name {
-        font-size: 23px;
-        padding: 0.5rem;
-    }
-    .card1 .description {
-        font-size: 15px;
-        color: #222f3e;
-    }
-    
-    .card2 .work {
-        font-size: 25px;
-        padding: 1rem;
-    }
-    .card2 .name {
-        font-size: 23px;
-    }
-    .card2 .description {
-        font-size: 15px;
-        color: #222f3e;
-        padding: 0.5rem;
-    }
-    
-    .card3 .work {
-        font-size: 25px;
-        padding: 1rem;
-    }
-    .card3 .name {
-        font-size: 23px;
-        padding: 0.5rem;
-    }
-    .card3 .description {
-        font-size: 15px;
-        color: #222f3e;
-    }
-    
-    .card4 .work {
-        font-size: 25px;
-        padding: 1rem;
-    }
-    .card4 .name {
-        font-size: 23px;
-        padding: 0.5rem;
-    }
-    .card4 .description {
-        font-size: 15px;
-        color: #222f3e;
-    }
-    .work-left .icon {
-        display: grid;
-        grid-template-columns: 40px 40px 40px 20px;
-        justify-content: center;
-        margin: 0.5rem;
-        padding: 0.5rem;
-        font-size: 25px;
-    }
-    .footer {
-        padding: 1rem;
-    }
-    .footer footer {
-        display: grid;
-        place-items: center;
-        grid-template-columns: 1fr 1fr;
-    }
-    .footer footer i {
-        padding: 1rem;
-    }
-    .work-left .work-paragraph p {
-        font-size: 18px;
-        text-align: center;
-    }
+        .swiper {
+            width: 60%;
+            height: 50%;
+          }
+        
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            width: 800%;
+        
+            /* Center slide text vertically */
+            display: flex;
+            align-items: center;
+            place-content: center;
+          }
+        .mySwiper {
+            height: 100%;
+            width: 100%;
+        }
+        .card1 img {
+            width: auto;
+            height: 30vh;
+        }
+        .card2 img {
+            width: auto;
+            height: 30vh;
+        }
+        .card3 img {
+            width: auto;
+            height: 30vh;
+        }
+        .card4 img {
+            width: auto;
+            height: 30vh;
+        }
+        .card5 img {
+            width: auto;
+            height: 30vh;
+        }
+        .card5 .work {
+            font-size: 18px;
+            padding: 1rem;
+        }
+        .card5 .name {
+            font-size: 18px;
+            padding: 1rem;
+        }
+        .card5 .description {
+            font-size: 15px;
+            color: #222f3e;
+        }
+        
+        .card1 .work {
+            font-size: 25px;
+            padding: 1rem;
+        }
+        .card1 .name {
+            font-size: 23px;
+            padding: 0.5rem;
+        }
+        .card1 .description {
+            font-size: 15px;
+            color: #222f3e;
+        }
+        
+        .card2 .work {
+            font-size: 25px;
+            padding: 1rem;
+        }
+        .card2 .name {
+            font-size: 23px;
+        }
+        .card2 .description {
+            font-size: 15px;
+            color: #222f3e;
+            padding: 0.5rem;
+        }
+        
+        .card3 .work {
+            font-size: 25px;
+            padding: 1rem;
+        }
+        .card3 .name {
+            font-size: 23px;
+            padding: 0.5rem;
+        }
+        .card3 .description {
+            font-size: 15px;
+            color: #222f3e;
+        }
+        
+        .card4 .work {
+            font-size: 25px;
+            padding: 1rem;
+        }
+        .card4 .name {
+            font-size: 23px;
+            padding: 0.5rem;
+        }
+        .card4 .description {
+            font-size: 15px;
+            color: #222f3e;
+        }
+        .work-left .icon {
+            display: grid;
+            grid-template-columns: 40px 40px 40px 20px;
+            justify-content: center;
+            margin: 0.5rem;
+            padding: 0.5rem;
+            font-size: 25px;
+        }
+        .footer {
+            padding: 1rem;
+        }
+        .footer footer {
+            display: grid;
+            place-items: center;
+            grid-template-columns: 1fr 1fr;
+        }
+        .footer footer i {
+            padding: 1rem;
+        }
+        .work-left .work-paragraph p {
+            font-size: 18px;
+            text-align: center;
+        }
+}
 }
