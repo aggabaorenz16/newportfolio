@@ -457,7 +457,7 @@
         }
         .project-title h1 {
             font-size: 40px;
-            margin-top: 150px;
+            margin-top: 300px;
         }
         .project-container {
             display: grid;
@@ -660,7 +660,7 @@
     }
     .project-title h1 {
         font-size: 40px;
-        margin-top: 200px;
+        margin-top: 300px;
     }
     .project-container {
         display: grid;
@@ -863,7 +863,7 @@
     }
     .project-title h1 {
         font-size: 40px;
-        margin-top: 150px;
+        margin-top: 300px;
     }
     .project-container {
         display: grid;
@@ -1066,7 +1066,7 @@
     }
     .project-title h1 {
         font-size: 40px;
-        margin-top: 100px;
+        margin-top: 300px;
     }
     .project-container {
         display: grid;
