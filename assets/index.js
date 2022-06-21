@@ -16,3 +16,15 @@
 //         card2.style.display = 'none'
 //     }
 // }
+
+const icon = document.querySelector("#navbar");
+
+icon.addEventListener('click', () => {
+    if (icon.classList.contains('fa-bars')) {
+        icon.classList.remove('fa-bars')
+        icon.classList.add('fa-close') 
+    } else {
+        icon.classList.add('fa-bars')
+        icon.classList.remove('fa-close')
+    }
+})
