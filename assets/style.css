@@ -8,6 +8,12 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
+.right-menu {
+    display: block;
+}
+.navbar .icon {
+    display: none;
+}
 .navbar {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -421,9 +427,16 @@
     font-size: 30px;
 }
 @media screen and (max-width: 320px) {
-        .right-menu {
-            display: none;
-        }
+    .right-menu {
+        display: none;
+    }
+    .navbar .icon {
+        display: grid;
+        justify-content: center;
+        place-content: center;
+        font-size: 25px;
+        color: white;
+    }
         .main-container {
             display: grid;
             grid-template-columns: repeat(1, auto);
@@ -626,6 +639,13 @@
 @media screen and (min-width: 321px) and (max-width: 420px) {
     .right-menu {
         display: none;
+    }
+    .navbar .icon {
+        display: grid;
+        justify-content: center;
+        place-content: center;
+        font-size: 30px;
+        color: white;
     }
     .main-container {
         display: grid;
@@ -830,6 +850,12 @@
     .right-menu {
         display: none;
     }
+    .navbar .icon {
+        display: grid;
+        place-items: center;
+        font-size: 30px;
+        color: white;
+    }
     .main-container {
         display: grid;
         grid-template-columns: repeat(1, auto);
@@ -1006,6 +1032,12 @@
 @media screen and (min-width: 521px) and (max-width: 620px) {
     .right-menu {
         display: none;
+    }
+    .navbar .icon {
+        display: grid;
+        place-items: center;
+        font-size: 30px;
+        color: white;
     }
     .project-container .work .project1 .viewsite {
         display: grid;
@@ -1210,6 +1242,12 @@
     .right-menu {
         display: none;
     }
+    .navbar .icon {
+        display: grid;
+        place-items: center;
+        font-size: 30px;
+        color: white;
+    }
     .main-container {
         display: grid;
         grid-template-columns: repeat(2, auto);
@@ -1387,6 +1425,12 @@
     .right-menu {
         display: none;
     }
+    .navbar .icon {
+        display: grid;
+        place-items: center;
+        font-size: 30px;
+        color: white;
+    }
     .main-container {
         display: grid;
         grid-template-columns: repeat(2, auto);
@@ -1562,7 +1606,7 @@
 }
 @media screen and (min-width: 921px) and (max-width: 1050px) {
     .right-menu {
-        display: none;
+        display: grid;
     }
     .main-container {
         display: grid;
