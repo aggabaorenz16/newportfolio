@@ -431,11 +431,13 @@
         display: none;
     }
     .navbar .icon {
-        display: grid;
-        justify-content: center;
-        place-content: center;
-        font-size: 25px;
-        color: white;
+        display: grid; 
+        place-items: center;
+        font-size: 30px; 
+        color: white; 
+        justify-items: end;
+        align-content: stretch;
+        margin-right: 20px;
     }
         .main-container {
             display: grid;
@@ -641,11 +643,13 @@
         display: none;
     }
     .navbar .icon {
-        display: grid;
-        justify-content: center;
-        place-content: center;
-        font-size: 30px;
-        color: white;
+        display: grid; 
+        place-items: center;
+        font-size: 30px; 
+        color: white; 
+        justify-items: end;
+        align-content: stretch;
+        margin-right: 20px;
     }
     .main-container {
         display: grid;
@@ -851,10 +855,13 @@
         display: none;
     }
     .navbar .icon {
-        display: grid;
+        display: grid; 
         place-items: center;
-        font-size: 30px;
-        color: white;
+        font-size: 30px; 
+        color: white; 
+        justify-items: end;
+        align-content: stretch;
+        margin-right: 20px;
     }
     .main-container {
         display: grid;
@@ -1034,10 +1041,13 @@
         display: none;
     }
     .navbar .icon {
-        display: grid;
+        display: grid; 
         place-items: center;
-        font-size: 30px;
-        color: white;
+        font-size: 30px; 
+        color: white; 
+        justify-items: end;
+        align-content: stretch;
+        margin-right: 20px;
     }
     .project-container .work .project1 .viewsite {
         display: grid;
@@ -1426,10 +1436,13 @@
         display: none;
     }
     .navbar .icon {
-        display: grid;
+        display: grid; 
         place-items: center;
-        font-size: 30px;
-        color: white;
+        font-size: 30px; 
+        color: white; 
+        justify-items: end;
+        align-content: stretch;
+        margin-right: 20px;
     }
     .main-container {
         display: grid;
@@ -1468,7 +1481,7 @@
     }
     .project-container {
         display: grid;
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: repeat(2, auto);
     }
     .testimonial-title { 
         font-size: 20px;
