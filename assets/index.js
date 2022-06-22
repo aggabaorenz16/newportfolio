@@ -22,9 +22,11 @@ const icon = document.querySelector("#navbar");
 icon.addEventListener('click', () => {
     if (icon.classList.contains('fa-bars')) {
         icon.classList.remove('fa-bars')
-        icon.classList.add('fa-close') 
+        icon.classList.add('fa-close')
+        alert("Don't use Mobile")
     } else {
         icon.classList.add('fa-bars')
+        alert("Use Desktop")
         icon.classList.remove('fa-close')
     }
 })
